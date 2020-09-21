@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{My Team Page Master}</h1>
+<h1 align="center">My Team Page Master</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://luigiar10.github.io/my-team-challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Luigiar10/my-team-challenge/">
       Solution
     </a>
     <span> | </span>
@@ -70,6 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/luigiar10})
-- Twitter [@your-twitter](https://{twitter.com/arrietaluigi})
+- GitHub [@luigiar10](https://{github.com/luigiar10})
+- Twitter [@arrietaluigi](https://{twitter.com/arrietaluigi})
