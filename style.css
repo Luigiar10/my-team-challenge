@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	width: 100%;
+}
+
+body{
+	font-size: 62.5%; /** Reset font size **/
+	font-family: "Poppins", sans-serif;
+}
+
+header{
+	padding-top: 1rem;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+}
+
+.logo h1{
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.text h2{
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+}
+
+.text p{
+	font-size: 1rem;
+}
+
+main{
+	width: 90%;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 1.5rem;
+}
+
+.info{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2.5rem;
+}
+
+.info:nth-child(2){
+	margin-top: 2.3rem;
+}
+
+.info:nth-child(4){
+	margin-top: 2.3rem;
+}
+
+.info:nth-child(6){
+	margin-top: 2.3rem;
+}
+
+.info p{
+	writing-mode: vertical-lr;
+	text-transform: uppercase;
+}
+
+footer p{
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+}
+
+footer p a{
+	color: #000;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+	header{
+		width: 70%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		column-gap: 2rem;
+	}
+
+	main{
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 5rem;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.photo h3{
+		font-size: 1rem;
+	}
+
+	.info p{
+		font-size: 1rem;
+	}
+
+	.info:nth-child(2){
+	margin-top: 3rem;
+	}
+
+	.info:nth-child(5){
+	margin-top: 6rem;
+	}
+}
